@@ -1,0 +1,166 @@
+.bar.bar-dark {
+	background-color: #333 !important;
+}
+.buttons-channels {
+	margin-top: 30px;
+}
+.login-input {
+	border-color: #ccc;
+	margin-top: 30px;
+}
+
+img {
+	max-width: 80%;
+}
+.pane {
+	background: url('../img/bg.png');
+}
+
+.card, .list-inset {
+	background: transparent;
+}
+
+.logo {
+    margin-bottom: 25px;
+}
+
+.item-input-wrapper {
+	background: transparent;
+	border-bottom: 1px solid #ddd;
+}
+
+/*Custom Color*/
+.button.button-green {
+    border: 0;
+    background-color: #2ecc71;
+    color: #fff; }
+    .button.button-green:hover {
+      color: #fff;
+      text-decoration: none; }
+    .button.button-green.active, .button.button-green.activated {
+      background-color: #2ecc71;
+      box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
+    .button.button-green.button-clear {
+      border-color: transparent;
+      background: none;
+      box-shadow: none;
+      color: #2ecc71; }
+    .button.button-green.button-icon {
+      border-color: transparent;
+      background: none; }
+    .button.button-green.button-outline {
+      background: transparent;
+      color: #2ecc71; }
+      .button.button-green.button-outline.active, .button.button-green.button-outline.activated {
+        background-color: #2ecc71;
+        box-shadow: none;
+        color: #fff; }
+
+/*End*/
+
+.light{
+	background-color: #2E2E31;
+}
+
+.linegrey{
+
+	background-color: #2E2E31;
+	border:none;
+	border-bottom: 1px solid #8DB4B4;
+}
+
+.message {
+	padding: 10px;
+	margin-left: 30px;
+}
+
+.message strong {
+	color: #3F5A73;
+}
+
+.bar.bar-dark {
+    background-color: #3F5A73;
+}
+
+.top100{
+	margin-top: 100px;
+	text-align: center;
+}
+
+input.white{
+	color:#fff;
+	font-size:18px;
+}
+
+.right8{
+	right: 8px;
+}
+
+.light-grey{
+	background-color: #EDEBEE;
+	border:0px;
+}
+
+.line-light-grey{
+	background-color: #EDEBEE;
+	border:none;
+	border-bottom: 1px solid #8DB4B4;
+}
+
+.bottommsg{
+	position: fixed;
+	bottom:0px;
+	width: 100%;
+}
+
+.divsend{
+	background-color:#2ecc71;
+	margin-left: 7px;
+	border-radius: 100%;
+}
+
+.divsend button.button-clear.button-clear {
+	color: #fff;
+}
+
+.iconsend{
+	font-size: 18px;
+}
+
+.width70{
+	width: 75%;
+	margin-right:0px; 
+}
+
+.log{
+	text-align:center;
+	font-size: 13px;
+	color: #8A8A8A;
+	padding: 7px 14px 7px 14px;
+
+}
+
+.message{
+	padding: 7px 14px 7px 14px;
+    font-size: 16px;
+}
+
+.nopadtop{
+padding-top: 0px;
+}
+
+.content{
+	bottom:68px;
+}
+
+.channelButton {
+	background-color: red;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 150%;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    background-color:#EDAE49;
+}

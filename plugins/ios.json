@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.ionic.keyboard": {
+            "PACKAGE_NAME": "com.ionicframework.rapidchatnew486836"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.ionicframework.rapidchatnew486836"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ionicframework.rapidchatnew486836"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.rapidchatnew486836"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.rapidchatnew486836"
+        }
+    },
+    "dependent_plugins": {}
+}

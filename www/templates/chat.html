@@ -1,0 +1,31 @@
+<ion-view view-title="WeChat">
+ 	<ion-nav-bar class="bar-dark">
+ 		<ion-nav-back-button ng-click="goBack()">
+  		</ion-nav-back-button>
+      <ion-nav-buttons side="right">
+      <!-- MENU BUTTON -->
+        <!-- <button class="button button-clear icon ion-android-more-vertical right8" ng-click="chatCtrl.openPopover($event)">
+        </button> -->
+      </ion-nav-buttons>
+ 	</ion-nav-bar>
+ 	<ion-content has-bouncing="true" class="content">
+	  <div>
+	 	<div class="log pad2">Welcome to WeChat</div>
+	  </div>
+        <ul id="messagesList">
+        	<li class="message"  ng-repeat="message in messages" >
+        		<strong>{{message.nickname}} :</strong> {{message.message}}
+        	</li>
+        </ul>
+	</ion-content>
+	<div class="list bottommsg">
+		<div class="item item-input-inset">
+		 <label  class="item-input-wrapper nopadtop"> <!-- autofocus was here but it crashes iOS -->
+		    <input type="text"  placeholder="Message" ng-enter="sendMessage(message)" ng-model="message">
+		  </label>
+		  <div class="divsend">
+			    <button class="button button-clear ion-android-send iconsend" ng-click="sendMessage(message)"></button>
+		  </div>
+		</div>
+	</div>
+ </ion-view>
